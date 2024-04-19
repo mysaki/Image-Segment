@@ -1,0 +1,12 @@
+/real_imgs
+/__pycache__
+/1
+/FastSAM
+/new_imgs
+/retune_result
+/sim_imgs
+/test
+/train_logs
+/real_imgs.zip
+/sam_vit_h_4b8939.pth
+
