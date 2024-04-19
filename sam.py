@@ -150,9 +150,7 @@ class Model():
             delta_scale=random.sample(scale,1)
             delta_w=w*(np.sqrt(1-delta_scale[0])-1)
             delta_h=h*(np.sqrt(1-delta_scale[0])-1)
-            # print("candidate_box:",candidate_box)
             # print("delta_W:",delta_w)
-            # print("delta_H:",delta_h)
             #对矩形面积进行放缩
             candidate_box[0]-=delta_w/2 
             candidate_box[2]+=delta_w/2 
